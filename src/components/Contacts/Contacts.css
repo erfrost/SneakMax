@@ -1,0 +1,66 @@
+.Contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 5% 75px 5%;
+    color: #444B58;
+}
+.contacts-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+.contacts-title {
+    font-weight: 700;
+    font-size: 30px;
+}
+.office-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+.office-name {
+    font-weight: 400;
+    color: #B2B5BB;
+    font-size: 14px;
+}
+.office-number {
+    font-size: 30px;
+    font-weight: 400;
+}
+.office-address {
+    font-weight: 400;
+    font-size: 18px;
+}
+.name-with-tooltip {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.tooltip-container {
+    position: relative;
+}
+.tooltip-circle {
+    margin-top: 10px;
+}
+.tooltip-quest {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.tooltip {
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    -webkit-box-shadow: 16px 15px 33px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 16px 15px 33px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 16px 15px 33px 2px rgba(34, 60, 80, 0.2);
+    font-weight: 400;
+    color: #444B58;
+    font-size: 14px;
+}

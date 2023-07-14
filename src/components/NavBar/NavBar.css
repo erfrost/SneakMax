@@ -1,0 +1,37 @@
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.navbar-link {
+    font-size: 14px;
+    font-weight: 400;
+}
+.navbar-link::after {
+    position:relative;
+    top:0;
+    left:0;
+    width:0%;
+    display:block;
+    height: 1px;
+    background-color: white;
+    content:"";
+    transition: all 0.3s ease-in-out;
+}
+.navbar-link:hover::after {
+    width: 100%;
+}
+.cart-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    color: white;
+    cursor: pointer;
+}

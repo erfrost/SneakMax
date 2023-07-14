@@ -1,0 +1,9 @@
+.Footer {
+    padding: 25px 5% 25px 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444B58;
+    color: white;
+}

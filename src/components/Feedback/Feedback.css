@@ -1,0 +1,60 @@
+.Feedback {
+    padding: 75px 10% 75px 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+}
+.feedback-forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color: #484283;
+    border-radius: 4px;
+    padding: 50px 30px 50px 30px;
+}
+.feedback-forms-title-1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+.feedback-forms-title-2 {
+    max-width: 260px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+.feedback-forms-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.feedback-btn {
+    width: calc(100% - 81px);
+    background-color: #F14F4F;
+    border-radius: 4px;
+    padding: 22px 47px 22px 47px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.feedback-btn:hover {
+    background-color: #cd4646;
+}
+.instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.instagram-images {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:      
+    "inst1 inst3 inst4"
+    "inst2 inst3 inst5";
+}

@@ -1,0 +1,13 @@
+.Header-container {
+    width: 100%;
+    position: fixed;
+    background-color: #484283;
+    z-index: 999999;
+}
+.Header-content {
+    padding: 25px 5% 25px 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

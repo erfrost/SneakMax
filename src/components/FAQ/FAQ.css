@@ -1,0 +1,48 @@
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 75px 5% 25px 5%;
+}
+.FAQ-title {
+    color: #444B58;
+    font-weight: 700;
+    font-size: 30px;
+}
+.accordions-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.chakra-accordion__item {
+    border-top: 1px solid #242424;
+}
+.chakra-accordion__item:last-child {
+    border-bottom: 1px solid #242424;
+}
+.css-ubg1nw {
+    padding: 0 !important;
+    border: none !important;
+    background-color: transparent !important;
+    cursor: pointer;
+}
+.css-b0qdn7 {
+    padding-bottom: 20px !important;
+    color: #24242480;
+    font-weight: 400;
+    font-size: 16px;
+}
+.css-1eziwv {
+    color: #242424;
+    font-size: 20px;
+    font-weight: 400;
+}
+.accordion-active {
+    transition: all 0.3s;
+    transform: rotate(135deg);
+}
+.accordion-disable {
+    transition: all 0.3s;
+}

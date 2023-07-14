@@ -1,0 +1,43 @@
+.Team {
+    padding: 75px 5% 75px 5%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    background-color: #484283;
+}
+.team-title {
+    font-weight: 700;
+    font-size: 30px;
+    align-self: flex-start;
+}
+.team-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+.team-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.team-grid-image {
+    z-index: 99999;
+}
+.team-grid-title-1 {
+    font-weight: 700;
+    font-size: 22px;
+}
+.team-grid-title-2 {
+    font-weight: 400;
+    font-size: 14px;
+}
+.team-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

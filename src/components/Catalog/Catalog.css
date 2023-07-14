@@ -1,0 +1,170 @@
+.Catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 75px 5% 25px 5%;
+    color: #444B58;
+    gap: 50px;
+}
+.catalog-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+}
+.title {
+    font-weight: 700;
+    font-size: 30px;
+}
+.filter {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    background-color: #FFF4EE;
+    border-radius: 4px;
+    padding: 20px;
+}
+.filter-title {
+    color: #444B58;
+    font-weight: 400;
+    font-size: 24px;
+    max-width: 50%;
+}
+.rangeSlider-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rangeSlider-title {
+    font-weight: 400;
+    font-size: 16px;
+}
+.rangeSlider-viewPrice {
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #B2B5BB;
+    border-radius: 4px;
+    position: relative;
+}
+.price-input-box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.price-input {
+    text-align: center;
+    width: 50%;
+    height: 100% !important;
+    border: none !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    font-weight: 400;
+    font-size: 16px;
+}
+.price-input-box:first-child {
+    border-right: 1px solid #B2B5BB !important;
+}
+.price-input:focus-visible {
+    outline: none !important;
+    border: none !important;
+}
+.catalog-checkbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.catalog-checkbox {
+    font-size: 16px;
+    font-weight: 400;
+}
+.catalog-checkbox span:nth-child(even) {
+    width: 19px;
+    height: 16px;
+    padding: 5px;
+    border: 1px solid #B2B5BB;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+.catalog-checkbox span:nth-child(even):hover {
+    background-color: #fdf9f7;
+}
+.sizes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #DBBBA9;
+    padding: 17px 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+td:hover {
+    background-color: #fdf9f7;
+}
+.catalog-submit-btn {
+    width: 100%;
+    background-color: #444B58;
+    border-radius: 4px;
+    color: #FFF4EE;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.catalog-submit-btn:hover {
+    background-color: #383e49;
+}
+.catalog-submit-btn-title {
+    padding: 22px 48px 22px 48px;
+}
+.catalog-reset-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.catalog-reset-btn:hover {
+    color: #F14F4F;
+}
+.sneaker-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.sneaker-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+.more-btn {
+    padding: 22px 47px 22px 47px;
+    color: white;
+    font-weight: 700;
+    background-color: #F14F4F;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.more-btn:hover {
+    background-color: #cd4646;
+}
